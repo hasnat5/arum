@@ -1,13 +1,14 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import '../index.css';
 
 const navbar = () => {
     return (
         <nav>
             <ul className="flex">
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/aktor">Aktor</Link></li>
-                <li><Link to="/about">About</Link></li>
+                <li><NavLink to="/">Home</NavLink></li>
+                <li><NavLink to="/actor">Aktor</NavLink></li>
+                <li><NavLink to="/about">About</NavLink></li>
             </ul>
         </nav>
     )
