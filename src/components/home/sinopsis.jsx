@@ -1,7 +1,7 @@
 import React from "react";
 import documentation from "../../asset/img/jumbotron.jpg";
 
-const info = () => {
+const sinopsis = () => {
     return (
         <section className="container bg-third pt-12">
             <div className="px-6 py-10">
@@ -19,4 +19,4 @@ const info = () => {
     )
 }
 
-export default info;
+export default sinopsis;
