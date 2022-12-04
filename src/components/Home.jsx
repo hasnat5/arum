@@ -1,13 +1,13 @@
 import React, { Fragment } from "react";
 import Jumbotron from "./home/jumbotron";
-import Info from './home/info';
+import Sinopsis from './home/sinopsis';
 import ListAktor from './home/listAktor';
 
 const home = () => {
     return (
         <Fragment>
             <Jumbotron></Jumbotron>
-            <Info></Info>
+            <Sinopsis></Sinopsis>
             <ListAktor></ListAktor>
         </Fragment>
     )
