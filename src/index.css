@@ -16,3 +16,9 @@
   font-family: "DINBOLD";
   src: url("font/DinNext/DINNextW1G-Bold.otf");
 }
+
+@layer components{
+  .active{
+    @apply text-red-600 font-dinBold;
+  }
+}
