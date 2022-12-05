@@ -1,22 +1,28 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { useState } from "react";
 import logo from "../asset/icon/flower.png";
+import { Divide as Hamburger } from 'hamburger-react'
+import MobileNav from "./navigation/mobileNavigation";
 import '../index.css';
+import { Fragment } from "react";
 
-const navbar = () => {
+const Navbar = () => {
+
+    const [isOpen, setOpen] = useState(false)
+    const closeMobileMenu = () => setOpen(false)
+
     return (
-        <nav className="fixed flex items-center justify-between bg-secondary h-16 px-4 z-20 w-full">
+        <nav className="navBar fixed flex items-center bg-secondary justify-between h-16 px-4 z-10 w-full" >
             <div className="flex gap-4 items-center">
                 <img src={logo} className="h-10" alt="logo" />
                 <h2 className="text-third font-tungsten text-4xl tracking-wider">ARUM</h2>
             </div>
-            <ul className="flex text-white">
-                <li><NavLink to="/">Home</NavLink></li>
-                <li><NavLink to="/actor">Aktor</NavLink></li>
-                <li><NavLink to="/about">About</NavLink></li>
-            </ul>
-        </nav>
+
+
+            {isOpen && <MobileNav isMobile={true} closeMobileMenu={closeMobileMenu} />}
+            <Hamburger color="#ece8e1" toggled={isOpen} toggle={setOpen} size={24} />
+        </nav >
     )
 }
 
-export default navbar;
+export default Navbar;
