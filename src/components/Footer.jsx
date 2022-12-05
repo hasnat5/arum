@@ -25,7 +25,7 @@ const footer = () => {
             <hr className="border-third" />
 
             <div>
-                <p className="text-fourth font-din text-base">Copyright © 2022 <a className="text-third underline" href="https://github.com/hasnat5/arum">arum</a>.</p>
+                <p className="text-fourth font-din text-base">Copyright © 2022 <a className="text-third underline" href="https://github.com/hasnat5/arum" target="_blank" rel="noopener noreferrer">arum</a>.</p>
             </div>
         </footer >
     )
