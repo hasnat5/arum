@@ -19,6 +19,6 @@
 
 @layer components{
   .active{
-    @apply text-red-600 font-dinBold;
+    @apply text-primary;
   }
 }
