@@ -4,7 +4,6 @@ import logo from "../asset/icon/flower.png";
 import { Divide as Hamburger } from 'hamburger-react'
 import MobileNav from "./navigation/mobileNavigation";
 import '../index.css';
-import { Fragment } from "react";
 
 const Navbar = () => {
 

@@ -17,8 +17,8 @@ const footer = () => {
             <div className="text-third">
                 <h2 className="font-dinBold mb-4">SOSIAL MEDIA</h2>
                 <ul className="font-din text-fourth flex gap-3">
-                    <li><a href="https://www.instagram.com/pplgtwooo_/" target="_blank"><img src={instagram} alt="instagram-logo" /></a></li>
-                    <li><a href="https://www.youtube.com/@pplgtwoofus9054" target="_blank"><img src={youtube} alt="youtube-logo" /></a></li>
+                    <li><a href="https://www.instagram.com/pplgtwooo_/" target="_blank" rel="noopener noreferrer"><img src={instagram} alt="instagram-logo" /></a></li>
+                    <li><a href="https://www.youtube.com/@pplgtwoofus9054" target="_blank" rel="noopener noreferrer"><img src={youtube} alt="youtube-logo" /></a></li>
                 </ul>
             </div>
 
