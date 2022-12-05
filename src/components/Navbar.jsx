@@ -13,7 +13,7 @@ const Navbar = () => {
     return (
         <nav className="navBar fixed flex items-center bg-secondary justify-between h-16 px-4 z-10 w-full" >
             <div className="flex gap-4 items-center">
-                <img src={logo} className="h-10" alt="logo" />
+                <img src={logo} className="h-8" alt="logo" />
                 <h2 className="text-third font-tungsten text-4xl tracking-wider">ARUM</h2>
             </div>
 
