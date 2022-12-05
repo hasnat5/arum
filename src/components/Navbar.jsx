@@ -19,7 +19,7 @@ const Navbar = () => {
 
 
             {isOpen && <MobileNav isMobile={true} closeMobileMenu={closeMobileMenu} />}
-            <Hamburger color="#ece8e1" toggled={isOpen} toggle={setOpen} size={24} />
+            <Hamburger style={{ userSelect: "none" }} color="#ece8e1" toggled={isOpen} toggle={setOpen} size={24} />
         </nav >
     )
 }
