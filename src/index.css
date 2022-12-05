@@ -16,9 +16,3 @@
   font-family: "DINBOLD";
   src: url("font/DinNext/DINNextW1G-Bold.otf");
 }
-
-@layer base{
-  .active{
-    @apply text-primary;
-  }
-}
