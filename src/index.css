@@ -17,7 +17,7 @@
   src: url("font/DinNext/DINNextW1G-Bold.otf");
 }
 
-@layer components{
+@layer base{
   .active{
     @apply text-primary;
   }
