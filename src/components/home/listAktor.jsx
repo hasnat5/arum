@@ -7,7 +7,7 @@ const listAktor = () => {
         <section className="container bg-primary pt-12">
             <div className="relative grid gap-5 justify-items-center px-6 pt-10">
                 <div>
-                    <h1 className="text-third font-bold font-tungsten text-left text-6xl mb-9 tracking-wide">AKTOR</h1>
+                    <h1 className="text-third font-bold font-tungsten text-left text-6xl mb-9 tracking-wider">AKTOR</h1>
                     <p className="text-third font-din text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum nam magnam cumque exercitationem tenetur veritatis, optio accusamus deleniti dignissimos dicta laborum consequuntur dolorem voluptatibus debitis placeat qui sequi asperiores provident itaque quasi molestiae repellendus. Cumque?</p>
                 </div>
 
