@@ -46,7 +46,7 @@ const about = () => {
             <AboutUs />
 
             <div className="grid gap-9 px-6 py-10">
-                <h1 className="font-tungsten text-6xl">CREW</h1>
+                <h1 className="font-tungsten text-6xl">KRU</h1>
                 <div className="text-center grid gap-6">
                     <div>
                         <h2 className="jobTitle">SUTRADARA</h2>
