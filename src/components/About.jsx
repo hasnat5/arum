@@ -62,7 +62,7 @@ const about = () => {
                         {(() => {
                             let post = [];
                             for (let i = 0; i < studentlist.length; i++) {
-                                if (studentlist[i].job == "Sutradara") {
+                                if (studentlist[i].job === "Sutradara") {
                                     post.push(<Crew instagram={studentlist[i].Instagram} nama={studentlist[i].nama}></Crew>)
                                 }
                             }
@@ -74,7 +74,7 @@ const about = () => {
                         {(() => {
                             let post = [];
                             for (let i = 0; i < studentlist.length; i++) {
-                                if (studentlist[i].job == "Asisten Sutradara") {
+                                if (studentlist[i].job === "Asisten Sutradara") {
                                     post.push(<Crew instagram={studentlist[i].Instagram} nama={studentlist[i].nama}></Crew>)
                                 }
                             }
@@ -86,7 +86,7 @@ const about = () => {
                         {(() => {
                             let post = [];
                             for (let i = 0; i < studentlist.length; i++) {
-                                if (studentlist[i].job == "Narator") {
+                                if (studentlist[i].job === "Narator") {
                                     post.push(<Crew instagram={studentlist[i].Instagram} nama={studentlist[i].nama}></Crew>)
                                 }
                             }
