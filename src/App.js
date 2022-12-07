@@ -8,6 +8,8 @@ import NotFound from './components/NotFound';
 import { Fragment } from "react";
 
 function App() {
+
+
 	return (
 		<Fragment>
 			<Navbar></Navbar>

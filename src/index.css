@@ -16,3 +16,9 @@
   font-family: "DINBOLD";
   src: url("font/DinNext/DINNextW1G-Bold.otf");
 }
+
+@layer utilities{
+  .jobTitle{
+    @apply font-dinBold text-secondary text-xl;
+  }
+}
