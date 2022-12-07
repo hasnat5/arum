@@ -16,11 +16,11 @@ function App() {
 			<Routes className="App">
 				<Route path='/' element={<Home />} />
 
-				<Route path='/actor'>
+				<Route path='/aktor'>
 					<Route index element={<Aktor />} />
 				</Route>
 
-				<Route path='/about' element={<About />} />
+				<Route path='/tentang' element={<About />} />
 
 				<Route path="*" element={<NotFound />} />
 			</Routes>

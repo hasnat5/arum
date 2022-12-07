@@ -16,7 +16,7 @@ const listAktor = () => {
                 </div>
 
                 <div className="absolute bottom-12">
-                    <Link to="/actor" className=" inline-block text-secondary font-dinBold text-base bg-third py-4 px-7">LIHAT SEMUA AKTOR</Link>
+                    <Link to="/aktor" className=" inline-block text-secondary font-dinBold text-base bg-third py-4 px-7">LIHAT SEMUA AKTOR</Link>
                 </div>
             </div>
 
