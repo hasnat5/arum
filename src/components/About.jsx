@@ -22,7 +22,7 @@ const about = () => {
         { "absen": 16, "nama": "Muhammad Rafly Pratama", "job": "Sound Engineer", "Instagram": "https://www.instagram.com/rafutaa_/" },
         { "absen": 17, "nama": "Muhammad Zaki Athallah Putra Pratama", "job": "Sound Engineer", "Instagram": "https://www.instagram.com/muhammad.zaki.a.p.p/" },
         { "absen": 18, "nama": "Nadilla Nur Afifah", "job": "Actor", "Instagram": "https://www.instagram.com/_ndlaan/" },
-        { "absen": 19, "nama": "Noval Raihan Al-Fikriana", "job": "Actor", "Instagram": "" },//Belum
+        { "absen": 19, "nama": "Noval Raihan Al-Fikriana", "job": "Actor", "Instagram": "https://www.instagram.com/ngopal.99/" },
         { "absen": 20, "nama": "Pamella Zahara Maulidya Ardianto", "job": "Sutradara", "Instagram": "https://www.instagram.com/pamella446" },
         { "absen": 21, "nama": "Rahmat Hidayat", "job": "Wardrobe", "Instagram": "https://www.instagram.com/matttt365/" },
         { "absen": 22, "nama": "Raka Putra Ramadhan", "job": ["Actor", "Property"], "Instagram": "https://www.instagram.com/raakaaaa.js/" },
@@ -40,14 +40,6 @@ const about = () => {
         { "absen": 34, "nama": "Wulan Shavira Nopa", "job": "Actor", "Instagram": "https://www.instagram.com/shaviranopa_/" },
         { "absen": 35, "nama": "Zahra Lathifah Khairani Wardhana", "job": ["Actor", "Wardrobe"], "Instagram": "https://www.instagram.com/zhr_junjunie23/" },
     ]
-
-    // function namaUlang() {
-    //     for (let i = 0; i < studentlist.length; i++) {
-    //         <Crew nama={studentlist[i].nama}></Crew>
-    //     }
-    //     return console.log(namaUlang);
-    // }
-    // Crew.getElementById('absen').innerHTML = namaUlang();
 
     return (
         <section className="bg-third pt-16">
