@@ -1,4 +1,3 @@
-import { Action } from "@remix-run/router";
 import React from "react";
 import AboutUs from "./about/aboutUs";
 import Crew from "./about/crew";
