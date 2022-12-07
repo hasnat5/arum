@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Aktor from './../../asset/img/hasnat.png';
+import Aktor from './../../asset/img/anel.png';
 
 const listAktor = () => {
     return (
