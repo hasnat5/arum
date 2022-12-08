@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Aktor from './../../asset/img/anel.png';
+import Aktor from './../../asset/img/1.png';
 
 const listAktor = () => {
     return (
@@ -12,7 +12,7 @@ const listAktor = () => {
                 </div>
 
                 <div className="grid justify-items-center">
-                    <img src={Aktor} className="w-full" alt="aktor" />
+                    <img src={Aktor} className="w-full pt-16" alt="aktor" />
                 </div>
 
                 <div className="absolute bottom-12">
