@@ -43,12 +43,12 @@ const ListAktor = () => {
             <div className="bg-third">
                 <div className="grid gap-9 px-6 py-10">
                     <article>
-                        <h2 className="font-dinBold text-xl text-fourth">// PERAN</h2>
+                        <span className="font-dinBold text-xl text-fourth">PERAN</span>
                         <h1 className="font-tungsten text-5xl text-secondary">{selected.peran}</h1>
                     </article>
 
                     <article>
-                        <h2 className="font-dinBold text-xl text-fourth mb-4">// DESKRIPSI</h2>
+                        <h2 className="font-dinBold text-xl text-fourth mb-4">DESKRIPSI</h2>
                         <p className="font-din text-fourth text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, rem eum mollitia ratione temporibus cum est quos esse vel tempore sint, aut voluptas quo ullam repellat velit, possimus at neque.</p>
 
                         <div className="grid justify-items-center">
