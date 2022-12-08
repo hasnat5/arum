@@ -4,27 +4,39 @@ import { ChevronUpDownIcon } from '@heroicons/react/20/solid'
 
 import Arum from "../asset/img/anel.png"
 import Galen from "../asset/img/hasnat.png"
-
+import Asgar from "../asset/img/azril.png"
+import ayahBrandon from "../asset/img/darrel.png"
+import Baron from "../asset/img/hatif.png"
+import Brandon from "../asset/img/ikhsan.png"
+import ibuBrandon from "../asset/img/nadila.png"
+import ayahArum from "../asset/img/naufal.png"
+import ibuArum from "../asset/img/nopa.png"
+import mesum1 from "../asset/img/reyvan.png"
+import mesum2 from "../asset/img/noval.png"
+import Emil from "../asset/img/fadhli.png"
+import Ian from "../asset/img/syafaat.png"
+import Ola from "../asset/img/sherryl.png"
+import Qiran from "../asset/img/marwa.png"
 
 const people = [
-    { "nama": "Risma Anelita", "peran": "Arum", "img": Arum },
+    { "nama": "Risma Anelita", "peran": "Arum", "img": Arum},
     { "nama": "Trah Purwa Paksi", "peran": "Gyndara" },
-    { "nama": "Muhammad Naufal Nabillansyah", "peran": "Ayah Arum" },
-    { "nama": "Wulan Shavira Nopa", "peran": "Ibu Arum" },
-    { "nama": "Marwa Aulia Lukman", "peran": "Qiran" },
-    { "nama": "Sherryl Azizah Aulia", "peran": "Ola" },
+    { "nama": "Muhammad Naufal Nabillansyah", "peran": "Ayah Arum", "img": ayahArum },
+    { "nama": "Wulan Shavira Nopa", "peran": "Ibu Arum", "img":ibuArum },
+    { "nama": "Marwa Aulia Lukman", "peran": "Qiran","img":Qiran },
+    { "nama": "Sherryl Azizah Aulia", "peran": "Ola", "img":Ola },
     { "nama": "Bisma Gyndara Mages Jayalangit", "peran": "Ayah Gyndara" },
-    { "nama": "Darrel Rafa Raihan", "peran": "Ayah Brandon" },
-    { "nama": "Nadilla Nur Afifah", "peran": "Ibu Brandon" },
-    { "nama": "Ikhsan Rifansyah", "peran": "Brandon" },
+    { "nama": "Darrel Rafa Raihan", "peran": "Ayah Brandon", "img":ayahBrandon },
+    { "nama": "Nadilla Nur Afifah", "peran": "Ibu Brandon", "img": ibuBrandon },
+    { "nama": "Ikhsan Rifansyah", "peran": "Brandon", "img":Brandon },
     { "nama": "Evan Fawwaz Firjatullah", "peran": "Pak Kusmo" },
-    { "nama": "Muhammad Hatif Ghazy", "peran": "Baron" },
-    { "nama": "Azril Devan Saqi", "peran": "Asgar" },
+    { "nama": "Muhammad Hatif Ghazy", "peran": "Baron", "img":Baron },
+    { "nama": "Azril Devan Saqi", "peran": "Asgar",'img':Asgar },
     { "nama": "Hasnat Ferdiananda", "peran": "Galen", "img": Galen },
-    { "nama": "Syafa'at Abdusalam", "peran": "Ian" },
-    { "nama": "Muhammad Fadhli Fathoni", "peran": "Emil" },
-    { "nama": "Rievan Rivaldy Nur Triana", "peran": "Murid Mesum 1" },
-    { "nama": "Noval Raihan Al-Fikriana", "peran": "Murid Mesum 2" },
+    { "nama": "Syafa'at Abdusalam", "peran": "Ian","img":Ian },
+    { "nama": "Muhammad Fadhli Fathoni", "peran": "Emil", "img":Emil },
+    { "nama": "Rievan Rivaldy Nur Triana", "peran": "Murid Mesum 1", "img":mesum1 },
+    { "nama": "Noval Raihan Al-Fikriana", "peran": "Murid Mesum 2", "img":mesum2 },
     { "nama": "Rakendra Aznil Raekhan", "peran": "Murid Mesum 3" },
     { "nama": "Fikri Alfathir Solehudin", "peran": "Caraka" },
 ]
