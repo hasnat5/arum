@@ -44,8 +44,8 @@ const about = () => {
 
     return (
         <section className="bg-third pt-16">
-            <div className="grid gap-9 px-6 py-10">
-                <h1 className="font-tungsten text-6xl">KRU</h1>
+            <div className="grid gap-9 px-6 py-10 lg:px-16">
+                <h1 className="font-tungsten text-6xl lg:text-8xl">KRU</h1>
                 <div className="text-center grid gap-6">
                     <div>
                         <h2 className="jobTitle">SUTRADARA</h2>
@@ -163,7 +163,6 @@ const about = () => {
 
 
                 </div>
-
             </div>
 
             <AboutUs />

@@ -19,24 +19,24 @@ import Ola from "../asset/img/sherryl.png"
 import Qiran from "../asset/img/marwa.png"
 
 const people = [
-    { "nama": "Risma Anelita", "peran": "Arum", "img": Arum},
+    { "nama": "Risma Anelita", "peran": "Arum", "img": Arum },
     { "nama": "Trah Purwa Paksi", "peran": "Gyndara" },
     { "nama": "Muhammad Naufal Nabillansyah", "peran": "Ayah Arum", "img": ayahArum },
-    { "nama": "Wulan Shavira Nopa", "peran": "Ibu Arum", "img":ibuArum },
-    { "nama": "Marwa Aulia Lukman", "peran": "Qiran","img":Qiran },
-    { "nama": "Sherryl Azizah Aulia", "peran": "Ola", "img":Ola },
+    { "nama": "Wulan Shavira Nopa", "peran": "Ibu Arum", "img": ibuArum },
+    { "nama": "Marwa Aulia Lukman", "peran": "Qiran", "img": Qiran },
+    { "nama": "Sherryl Azizah Aulia", "peran": "Ola", "img": Ola },
     { "nama": "Bisma Gyndara Mages Jayalangit", "peran": "Ayah Gyndara" },
-    { "nama": "Darrel Rafa Raihan", "peran": "Ayah Brandon", "img":ayahBrandon },
+    { "nama": "Darrel Rafa Raihan", "peran": "Ayah Brandon", "img": ayahBrandon },
     { "nama": "Nadilla Nur Afifah", "peran": "Ibu Brandon", "img": ibuBrandon },
-    { "nama": "Ikhsan Rifansyah", "peran": "Brandon", "img":Brandon },
+    { "nama": "Ikhsan Rifansyah", "peran": "Brandon", "img": Brandon },
     { "nama": "Evan Fawwaz Firjatullah", "peran": "Pak Kusmo" },
-    { "nama": "Muhammad Hatif Ghazy", "peran": "Baron", "img":Baron },
-    { "nama": "Azril Devan Saqi", "peran": "Asgar",'img':Asgar },
+    { "nama": "Muhammad Hatif Ghazy", "peran": "Baron", "img": Baron },
+    { "nama": "Azril Devan Saqi", "peran": "Asgar", 'img': Asgar },
     { "nama": "Hasnat Ferdiananda", "peran": "Galen", "img": Galen },
-    { "nama": "Syafa'at Abdusalam", "peran": "Ian","img":Ian },
-    { "nama": "Muhammad Fadhli Fathoni", "peran": "Emil", "img":Emil },
-    { "nama": "Rievan Rivaldy Nur Triana", "peran": "Murid Mesum 1", "img":mesum1 },
-    { "nama": "Noval Raihan Al-Fikriana", "peran": "Murid Mesum 2", "img":mesum2 },
+    { "nama": "Syafa'at Abdusalam", "peran": "Ian", "img": Ian },
+    { "nama": "Muhammad Fadhli Fathoni", "peran": "Emil", "img": Emil },
+    { "nama": "Rievan Rivaldy Nur Triana", "peran": "Murid Mesum 1", "img": mesum1 },
+    { "nama": "Noval Raihan Al-Fikriana", "peran": "Murid Mesum 2", "img": mesum2 },
     { "nama": "Rakendra Aznil Raekhan", "peran": "Murid Mesum 3" },
     { "nama": "Fikri Alfathir Solehudin", "peran": "Caraka" },
 ]
@@ -45,18 +45,76 @@ const ListAktor = () => {
 
     const [selected, setSelected] = useState(people[0])
     return (
-        <section className="container pt-16" >
-            <div className="grid justify-center pt-6 bg-secondary/95">
-                <h1 className="absolute left-0 right-0 mx-auto font-tungsten text-6xl text-third text-center">{selected.nama}</h1>
-                <img src={selected.img} className="h-[70vh] z-10 relative" alt="poto_aktor" />
+        <section className="container m-auto min-w-full pt-16" >
+            <div className="grid justify-center pt-6 bg-secondary lg:grid-cols-12 lg:px-16 lg:pt-10">
+
+                <div className="w-64 lg:grid lg:col-span-3 lg:content-center">
+                    <h2 className="font-dinBold text-xl mb-4 text-third hidden lg:block">PILIH AKTOR</h2>
+                    <Listbox className="hidden lg:block" value={selected} onChange={setSelected}>
+                        <div className="relative mt-1">
+                            <Listbox.Button className="relative w-full cursor-default border border-fourth bg-third py-2 pl-3 pr-10 text-center font-dinBold text-secondary uppercase focus:outline-none focus-visible:border-indigo-500 focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75 focus-visible:ring-offset-2 focus-visible:ring-offset-orange-300 sm:text-sm">
+                                <span className="block truncate">{selected.peran}</span>
+                                <span className="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2">
+                                    <ChevronUpDownIcon
+                                        className="h-5 w-5 text-gray-400"
+                                        aria-hidden="true"
+                                    />
+                                </span>
+                            </Listbox.Button>
+                            <Transition
+                                as={Fragment}
+                                leave="transition ease-in duration-100"
+                                leaveFrom="opacity-100"
+                                leaveTo="opacity-0"
+                            >
+                                <Listbox.Options className="absolute mt-1 max-h-60 w-64 overflow-auto rounded-md bg-third py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm">
+                                    {people.map((person, personIdx) => (
+                                        <Listbox.Option
+                                            key={personIdx}
+                                            className={({ active }) =>
+                                                `relative cursor-default select-none py-2 px-6 ${active ? 'bg-secondary text-third uppercase' : 'text-fourth font-din uppercase'
+                                                }`
+                                            }
+                                            value={person}
+                                        >
+                                            {({ selected }) => (
+                                                <>
+                                                    <span
+                                                        className={`block truncate ${selected ? 'font-medium' : 'font-normal'
+                                                            }`}
+                                                    >
+                                                        {person.peran}
+                                                    </span>
+                                                </>
+
+                                            )}
+                                        </Listbox.Option>
+                                    ))}
+                                </Listbox.Options>
+                            </Transition>
+                        </div>
+                    </Listbox>
+                </div>
+
+                <h1 className="absolute lg:max-w-sm left-0 right-0 mx-auto font-tungsten text-6xl lg:text-8xl text-third text-center">{selected.nama}</h1>
+                <img src={selected.img} className="h-[70vh] z-10 relative grid justify-self-center lg:col-start-4 lg:col-span-6" alt="poto_aktor" />
+
+                <article className="hidden lg:grid lg:content-center lg:col-start-10 lg:col-span-3">
+                    <div className="lg:block text-third">
+                        <h2 className="font-dinBold text-xl mb-4">PERAN</h2>
+                        <h1 className="font-tungsten text-6xl uppercase mb-12">{selected.peran}</h1>
+                        <h2 className="font-dinBold text-xl mb-4">DESKRIPSI</h2>
+                        <p className="font-din text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, rem eum mollitia ratione temporibus cum est quos esse vel tempore sint, aut voluptas quo ullam repellat velit, possimus at neque.</p>
+                    </div>
+                </article>
             </div>
 
 
-            <div className="bg-third">
+            <div className="bg-third lg:hidden">
                 <div className="grid gap-9 px-6 py-10">
                     <article>
-                        <span className="font-dinBold text-xl text-fourth">PERAN</span>
-                        <h1 className="font-tungsten text-5xl text-secondary">{selected.peran}</h1>
+                        <h2 className="font-dinBold text-xl text-fourth">PERAN</h2>
+                        <h1 className="font-tungsten text-5xl uppercase text-secondary">{selected.peran}</h1>
                     </article>
 
                     <article>
