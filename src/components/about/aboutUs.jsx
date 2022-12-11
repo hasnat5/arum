@@ -1,6 +1,6 @@
 import React from "react";
-import hasnatDev from "../../asset/img/hasnat_pengembang.JPG";
-import fadhliDev from "../../asset/img/fadhli_pengembang.jpeg";
+import hasnatDev from "../../asset/img/hasnat_pengembang.jpg";
+import fadhliDev from "../../asset/img/fadhli_pengembang.jpg";
 
 const aboutUs = () => {
     return (
