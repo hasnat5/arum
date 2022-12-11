@@ -22,6 +22,7 @@ import mesum1 from "../asset/img/reyvan.png"
 import mesum2 from "../asset/img/noval.png"
 import mesum3 from "../asset/img/rakendra.png"
 import caraka from "../asset/img/fikri.png"
+import penghulu from "../asset/img/rizwan.png"
 
 const people = [
     { "nama": "Risma Anelita", "peran": "Arum", "img": Arum, "deskripsi": "Arum adalah anak yang berbudi pekerti luhur. Ia memiliki semangat yang tinggi dalam memperjuangkan haknya sebagai seorang perempuan. Ia tetap tumbuh walau jiwa telah rapuh" },
@@ -43,6 +44,7 @@ const people = [
     { "nama": "Rievan Rivaldy Nur Triana", "peran": "Murid Mesum 1", "img": mesum1, "deskripsi": "Ia bertingkah laku aneh karena pikirannya yang kotor" },
     { "nama": "Noval Raihan Al-Fikriana", "peran": "Murid Mesum 2", "img": mesum2, "deskripsi": "Murid ini adalah salah satu murid yang memiliki lingkungan pertemanan yang kurang baik, dan menyebabkan tingkah laku murid ini berpikiran negatif" },
     { "nama": "Rakendra Aznil Raekhan", "peran": "Murid Mesum 3", "img": mesum3, "deskripsi": "Murid ini dapat mengajak temannya untuk tidak terjerumus kedalam hal yang negatif" },
+    { "nama":"Rizwan Nurshiddiq","peran":"Penghulu","img":penghulu,"deskripsi":"Ia hanya melakukan tugasnya"},
     { "nama": "Fikri Alfathir Solehudin", "peran": "Caraka", "img": caraka, "deskripsi": "Seorang petugas yang sangat kepo terhadap berita berita menarik" },
 ]
 

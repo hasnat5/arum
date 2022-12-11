@@ -25,7 +25,7 @@ const about = () => {
         { "nama": "Noval Raihan Al-Fikriana", "job": "Actor", "Instagram": "https://www.instagram.com/ngopal.99/" },
         { "nama": "Pamella Zahara Maulidya Ardianto", "job": "Sutradara", "Instagram": "https://www.instagram.com/pamella446" },
         { "nama": "Rahmat Hidayat", "job": "Wardrobe", "Instagram": "https://www.instagram.com/matttt365/" },
-        { "nama": "Raka Putra Ramadhan", "job": ["Actor", "Property"], "Instagram": "https://www.instagram.com/raakaaaa.js/" },
+        { "nama": "Raka Putra Ramadhan", "job": "Property", "Instagram": "https://www.instagram.com/raakaaaa.js/" },
         { "nama": "Rakendra Aznil Raekhan", "job": ["Actor", "Wardrobe"], "Instagram": "https://www.instagram.com/rakenndraa/" },
         { "nama": "Rezky Rizqullah", "job": "Property", "Instagram": "https://www.instagram.com/ekyyy.sql/" },
         { "nama": "Rievan Rivaldy Nur Triana", "job": ["Actor", "Digital Artist"], "Instagram": "https://www.instagram.com/reyvan_sr_my/" },
@@ -38,9 +38,8 @@ const about = () => {
         { "nama": "Syafa'at Abdusalam", "job": "Actor", "Instagram": "https://www.instagram.com/syafaat.a.s/" },
         { "nama": "Trah Purwa Paksi", "job": "Actor", "Instagram": "https://www.instagram.com/sipaksiii/" },
         { "nama": "Wulan Shavira Nopa", "job": "Actor", "Instagram": "https://www.instagram.com/shaviranopa_/" },
-        { "nama": "Zahra Lathifah Khairani Wardhana", "job": ["Wardrobe", "Solo"], "Instagram": "https://www.instagram.com/zhr_junjunie23/" },
+        { "nama": "Zahra Lathifah Khairani Wardhana", "job": ["Wardrobe", "Nyanyi"], "Instagram": "https://www.instagram.com/zhr_junjunie23/" },
     ]
-    //Zahra nyanyi di akhir
 
     return (
         <section className="bg-third pt-16">
@@ -89,6 +88,19 @@ const about = () => {
                             let post = [];
                             for (let i = 0; i < studentlist.length; i++) {
                                 if (studentlist[i].job.includes("Actor")) {
+                                    post.push(<Crew instagram={studentlist[i].Instagram} nama={studentlist[i].nama}></Crew>)
+                                }
+                            }
+                            return post;
+                        })()}
+
+                    </div>
+                    <div>
+                        <h2 className="jobTitle">PENYANYI</h2>
+                        {(() => {
+                            let post = [];
+                            for (let i = 0; i < studentlist.length; i++) {
+                                if (studentlist[i].job.includes("Nyanyi")) {
                                     post.push(<Crew instagram={studentlist[i].Instagram} nama={studentlist[i].nama}></Crew>)
                                 }
                             }
