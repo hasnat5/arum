@@ -12,7 +12,7 @@ const sinopsis = () => {
 
                 <div className="relative">
                     <div className="absolute -left-6 lg:left-7 top-5 bg-primary px-7 py-1">
-                        <p className="text-white font-dinBold text-base">DOKUMENTASI</p>
+                        <p className="text-white font-dinBold text-base">TRAILER</p>
                     </div>
                     <img src={documentation} className="mt-16 mb-8 md:mt-0 md:mb-0 lg:pl-12" alt="" />
                 </div>
