@@ -1,5 +1,5 @@
 import React from "react";
-import hasnatDev from "../../asset/img/fadhli_pengembang.jpg";
+import hasnatDev from "../../asset/img/hasnat_pengembang.jpg";
 import fadhliDev from "../../asset/img/fadhli_pengembang.jpg";
 
 const aboutUs = () => {
