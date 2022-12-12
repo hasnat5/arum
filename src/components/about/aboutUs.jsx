@@ -23,7 +23,7 @@ const aboutUs = () => {
 
             {/* hasnat profile */}
             <div>
-                <motion.h2 initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { ease: [0.455, 0.03, 0.515, 0.955], duration: 0.85, delay: 0.6 } }} className="font-dinBold text-3xl lg:text-4xl text-secondary underline text-center mb-6 lg:mb-9">Hasnat Ferdiananda</motion.h2>
+                <motion.h2 initial={{ opacity: 0 }} whileInView={{ opacity: 1, transition: { ease: [0.455, 0.03, 0.515, 0.955], duration: 0.85, delay: 0.6 } }} viewport={{ once: true, amount: 0.1 }} className="font-dinBold text-3xl lg:text-4xl text-secondary underline text-center mb-6 lg:mb-9">Hasnat Ferdiananda</motion.h2>
 
                 <div className="grid items-center justify-items-center lg:px-24 lg:grid-cols-12">
                     <img src={hasnatDev} className="w-6/12 lg:w-full lg:order-2 mb-6 lg:mb-9 lg:col-span-2 lg:justify-self-end" alt="poto_developer" />
