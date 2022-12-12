@@ -1,5 +1,4 @@
 import React from "react";
-import documentation from "../../asset/img/jumbotron.jpg";
 
 const sinopsis = () => {
     return (
@@ -8,14 +7,15 @@ const sinopsis = () => {
             <div className="lg:grid lg:grid-cols-2 lg:items-center gap-6">
                 <div>
                     <p className="text-fourth font-din text-lg lg:pl-32">Menceritakan tentang tekanan sosial yang kerap dialami oleh perempuan dan laki-laki dimana perempuan tidak bisa mendapatkan hak-haknya dan laki-laki yang dituntut untuk selalu menjadi pribadi yang kuat dan tidak boleh lemah. Tentang perempuan yang selalu di diskriminasi serta laki-laki yang selalu harus mengikuti standar sosial yang berlaku
-</p>
+                    </p>
                 </div>
 
                 <div className="relative">
                     <div className="absolute -left-6 lg:left-7 top-5 bg-primary px-7 py-1">
                         <p className="text-white font-dinBold text-base">TRAILER</p>
                     </div>
-                    <img src={documentation} className="mt-16 mb-8 md:mt-0 md:mb-0 lg:pl-12" alt="" />
+
+                    <iframe className="mt-16 mb-8 md:mt-0 md:mb-0 lg:pl-12" width="100%" height="250px" src="https://www.youtube.com/embed/6AA9rR6umnE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
         </section>

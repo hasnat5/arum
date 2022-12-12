@@ -13,7 +13,7 @@ const aboutUs = () => {
 
                 <div className="grid items-center justify-items-center lg:px-24 lg:grid-cols-12">
                     <img src={hasnatDev} className="w-6/12 lg:w-full lg:order-2 mb-6 lg:mb-9 lg:col-span-2 lg:justify-self-end" alt="poto_developer" />
-                    <p className="font-din text-lg text-fourth lg:col-span-10 lg:pr-9">Lahir tanggal 5 bulan desember. Seorang siswa yang duduk dibangku SMK yang ingin memutus hubungan dari ikatan Matematika, yang ternyata cukup membuatnya menyesal. Masa sekolah yang dibalut dengan keseharian biasa tanpa tercampur dengan genre romance membuatnya bosan dan memilih untuk mengambil jalan penuh pertumpahan darah.</p>
+                    <p className="font-din text-lg text-fourth lg:col-span-10 lg:pr-9">Lahir tanggal 5 bulan desember. Seorang siswa yang tengah duduk dibangku SMK, menyukai pelajaran matematika. Memiliki ketertarikan pada bidang teknologi termasuk web design.</p>
                 </div>
             </div>
 
