@@ -13,7 +13,7 @@ const aboutUs = () => {
 
                 <div className="grid items-center justify-items-center lg:px-24 lg:grid-cols-12">
                     <img src={hasnatDev} className="w-6/12 lg:w-full lg:order-2 mb-6 lg:mb-9 lg:col-span-2 lg:justify-self-end" alt="poto_developer" />
-                    <p className="font-din text-lg text-fourth lg:col-span-10 lg:pr-9">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero officiis consectetur nemo nihil accusamus natus et quo autem at suscipit tenetur atque amet laudantium totam tempore, eveniet placeat id mollitia optio itaque? Sapiente fugiat vero quisquam nihil? Consequatur, reiciendis necessitatibus!</p>
+                    <p className="font-din text-lg text-fourth lg:col-span-10 lg:pr-9">Lahir tanggal 5 bulan desember. Seorang siswa yang duduk dibangku SMK yang ingin memutus hubungan dari ikatan Matematika, yang ternyata cukup membuatnya menyesal. Masa sekolah yang dibalut dengan keseharian biasa tanpa tercampur dengan genre romance membuatnya bosan dan memilih untuk mengambil jalan penuh pertumpahan darah.</p>
                 </div>
             </div>
 
@@ -23,7 +23,7 @@ const aboutUs = () => {
 
                 <div className="grid items-center justify-items-center lg:px-24 lg:grid-cols-12">
                     <img src={fadhliDev} className="w-6/12 lg:w-full mb-6 lg:mb-9 lg:col-span-2" alt="poto_developer" />
-                    <p className="font-din text-lg text-fourth lg:col-span-10 lg:pl-9">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero officiis consectetur nemo nihil accusamus natus et quo autem at suscipit tenetur atque amet laudantium totam tempore, eveniet placeat id mollitia optio itaque? Sapiente fugiat vero quisquam nihil? Consequatur, reiciendis necessitatibus!</p>
+                    <p className="font-din text-lg text-fourth lg:col-span-10 lg:pl-9">Seorang siswa SMK, lahir pada tanggal 17 Maret 2006 di bandung, yang sangat bersemangat dalam bidang yang ia minati, perjuangannya tidak lah mudah, malas bukan lah apa apa dihadapannya, dengan semangat nya yang tinggi ia dapat tetap konsisten dalam menggapai cita cita yang ia inginkan</p>
                 </div>
             </div>
         </div >

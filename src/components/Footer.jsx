@@ -9,7 +9,7 @@ const footer = () => {
                 <div className="flex gap-3 items-center">
                     <h1 className="text-third font-tungsten text-3xl md:text-4xl tracking-wider">XI PPLG 2</h1>
                 </div>
-                <p className="text-third font-din text-sm md:text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error et, architecto ullam excepturi eveniet dolor!</p>
+                <p className="text-third font-din text-sm md:text-base">Sekilas tentang PPLG 2</p>
             </div>
 
             <div className="text-third">
