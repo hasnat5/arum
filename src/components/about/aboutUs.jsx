@@ -7,7 +7,9 @@ const aboutUs = () => {
     const item = {
         offscreen: {
             y: "200%",
-            transition: { ease: [0.455, 0.03, 0.515, 0.955], duration: 1 }
+            transition: {
+                ease: [0.455, 0.03, 0.515, 0.955], duration: 1
+            }
         },
         onscreen: {
             y: 0,
