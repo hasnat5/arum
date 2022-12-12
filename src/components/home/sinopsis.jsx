@@ -7,7 +7,8 @@ const sinopsis = () => {
             <h1 className="text-secondary font-bold font-tungsten text-6xl mb-9 lg:mb-14 tracking-wider md:text-9xl md:tracking-normal">SINOPSIS</h1>
             <div className="lg:grid lg:grid-cols-2 lg:items-center gap-6">
                 <div>
-                    <p className="text-fourth font-din text-lg lg:pl-32">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum nam magnam cumque exercitationem tenetur veritatis, optio accusamus deleniti dignissimos dicta laborum consequuntur dolorem voluptatibus debitis placeat qui sequi asperiores provident itaque quasi molestiae repellendus. Cumque?</p>
+                    <p className="text-fourth font-din text-lg lg:pl-32">Menceritakan tentang tekanan sosial yang kerap dialami oleh perempuan dan laki-laki dimana perempuan tidak bisa mendapatkan hak-haknya dan laki-laki yang dituntut untuk selalu menjadi pribadi yang kuat dan tidak boleh lemah. Tentang perempuan yang selalu di diskriminasi serta laki-laki yang selalu harus mengikuti standar sosial yang berlaku
+</p>
                 </div>
 
                 <div className="relative">
