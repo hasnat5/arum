@@ -1,8 +1,20 @@
 import React from "react";
+import { motion } from "framer-motion"
 import AboutUs from "./about/aboutUs";
 import Crew from "./about/crew";
 
 const about = () => {
+    const item = {
+        hidden: {
+            y: "200%",
+            transition: { ease: [0.455, 0.03, 0.515, 0.955], duration: 1.5 }
+        },
+        visible: {
+            y: 0,
+            transition: { ease: [0.455, 0.03, 0.515, 0.955], duration: 1.4 }
+        }
+    };
+
     let studentlist = [
         { "nama": "Alfiah Maulani", "job": "Wardrobe", "Instagram": "https://www.instagram.com/alfiahmaulani/" },
         { "nama": "Alifah Zachra Syifatunnajwa", "job": "Narator", "Instagram": "https://www.instagram.com/alfhz_/" },
@@ -44,7 +56,9 @@ const about = () => {
     return (
         <section className="bg-third pt-16">
             <div className="grid gap-9 px-6 py-10 lg:px-16">
-                <h1 className="font-tungsten text-6xl lg:text-8xl">KRU</h1>
+                <span className="overflow-hidden inline-block">
+                    <motion.h1 variants={item} initial="hidden" animate="visible" className="font-tungsten text-6xl lg:text-8xl">KRU</motion.h1>
+                </span>
                 <div className="text-center grid gap-6">
                     <div>
                         <h2 className="jobTitle">SUTRADARA</h2>

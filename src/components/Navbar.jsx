@@ -27,7 +27,7 @@ const Navbar = () => {
 
             {isOpen && <MobileNav isMobile={true} closeMobileMenu={closeMobileMenu} />}
             <div className="lg:hidden">
-                <Hamburger style={{ userSelect: "none" }} color="#ece8e1" toggled={isOpen} toggle={setOpen} size={24} />
+                <Hamburger color="#ece8e1" toggled={isOpen} toggle={setOpen} size={24} />
             </div>
         </nav >
     )

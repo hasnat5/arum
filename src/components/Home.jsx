@@ -4,7 +4,8 @@ import Sinopsis from './home/sinopsis';
 import ListAktor from './home/listAktor';
 import Ucapan from "./home/ucapan";
 
-const home = () => {
+const Home = () => {
+
     return (
         <Fragment>
             <Jumbotron></Jumbotron>
@@ -15,4 +16,4 @@ const home = () => {
     )
 }
 
-export default home;
+export default Home;
